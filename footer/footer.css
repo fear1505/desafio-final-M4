@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0%;
+}
+
+.footer {
+  background-color: #2c2c2c;
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 960px) {
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 346px;
+  }
+}
+
+.footer__content {
+  padding: 147px 89px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media (min-width: 960px) {
+  .footer__content {
+    padding: 0px 80px;
+  }
+}
+
+.footer__content__nombre {
+  padding: 0px 0px 30px;
+  max-width: 197px;
+  margin: 0% auto;
+}
+
+.footer__logo {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 0px 147px;
+}
+@media (min-width: 960px) {
+  .footer__logo {
+    padding: 104px 80px;
+  }
+}
+
+.footer__logo__ig {
+  margin: 0% auto;
+}
+
+.footer__logo__ig__instagram {
+  margin-bottom: 20px;
+}
+
+.footer__logo__lk {
+  margin: 0% auto;
+}
+
+.footer__logo__lk__linkedin {
+  margin-bottom: 20px;
+}
+
+.footer__logo__gh {
+  margin: 0% auto;
+}

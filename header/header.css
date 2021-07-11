@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+@media (min-width: 960px) {
+  .header {
+    padding: 50px;
+  }
+}
+
+.header__logo {
+}
+
+.header__menu-hamburg {
+  width: 36px;
+  height: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media (min-width: 960px) {
+  .header__menu-hamburg {
+    display: none;
+  }
+}
+.header__menu-hamburg-ventana {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+  background-color: #161616;
+  display: none;
+}
+
+.header__menu-hamburg-ventana__x {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+.header__menu-hamburg-ventana__contenido {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__menu-hamburg-ventana__contenido__psc {
+  font-size: 48px;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+
+.header__menu-hamburg__linea {
+  width: 36px;
+  height: 6px;
+  background-color: #fafafa;
+}
+
+.header__desktop {
+  display: none;
+}
+@media (min-width: 960px) {
+  .header__desktop {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 70px;
+  }
+}
+
+.header__desktop_menu {
+  color: #ffffff;
+  font-size: 24px;
+}
