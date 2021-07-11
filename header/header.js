@@ -1,7 +1,7 @@
 function headerComponent(el) {
   const headerEl = document.createElement("header");
   headerEl.innerHTML = ` <header class="header">
-  <img class="header__logo" src="../img-m4/MARCE.png" alt="">
+  <img class="header__logo" src="./img-m4/MARCE.png" alt="">
   <div class="header__menu-hamburg">
       <div class="header__menu-hamburg__linea"></div>
       <div class="header__menu-hamburg__linea"></div>
