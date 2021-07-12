@@ -13,8 +13,9 @@ function addPorfolioCard(params = {}) {
     ".porfolio__contenedor__parrafo"
   ).textContent = params.descripcion;
 
-  templatePorfolio.content.querySelector(".porfolio__contenedor__url").href =
-    params.url;
+  templatePorfolio.content.querySelector(
+    ".porfolio__contenedor__url"
+  ).textContent = params.url;
 
   const clone = document.importNode(templatePorfolio.content, true);
   containerPorfolio.appendChild(clone);

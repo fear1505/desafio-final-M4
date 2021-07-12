@@ -2,7 +2,7 @@ function footerComponent(el) {
   const footerEl = document.createElement("footer");
   footerEl.innerHTML = `<footer class="footer">
   <div class="footer__content">
-      <img class="footer__content__nombre" src="../img-m4/MARCE.png" alt="">
+      <img class="footer__content__nombre" src="./img-m4/logo-felix.png" alt="">
       </div>
       <div class="footer__logo">
           <div class="footer__logo__ig">

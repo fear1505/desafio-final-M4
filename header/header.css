@@ -13,6 +13,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 20px;
+  align-items: center;
 }
 @media (min-width: 960px) {
   .header {
@@ -21,6 +22,8 @@ body {
 }
 
 .header__logo {
+  height: 48px;
+  width: 122px;
 }
 
 .header__menu-hamburg {
@@ -79,6 +82,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 70px;
+    align-items: center;
   }
 }
 
