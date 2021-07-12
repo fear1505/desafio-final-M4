@@ -8,7 +8,7 @@ function headerComponent(el) {
       <div class="header__menu-hamburg__linea"></div>
   </div>
   <div class="header__menu-hamburg-ventana">
-  <img class="header__menu-hamburg-ventana__x" src="../img-m4/x-ventana.png" alt="">
+  <img class="header__menu-hamburg-ventana__x" src="./img-m4/x-ventana.png" alt="">
   <div class="header__menu-hamburg-ventana__contenido">
     <a class="header__menu-hamburg-ventana__contenido__psc" href="./porfolio.html">Portafolio</a>
     <a class="header__menu-hamburg-ventana__contenido__psc" href="./servicios.html">Servicios</a>
