@@ -16,7 +16,7 @@ function headerComponent(el) {
   </div>
   </div>
   <div class="header__desktop">
-      <a class="header__desktop_menu" href="./porfolio/portfolio.html">Portafolio</a>
+      <a class="header__desktop_menu" href="./porfolio/porfolio.html">Portafolio</a>
       <a class="header__desktop_menu" href="./servicios/servicios.html">Servicios</a>
       <a class="header__desktop_menu" href="./contacto/contacto.html">Contacto</a>
   </div>
